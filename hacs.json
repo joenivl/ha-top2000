@@ -1,0 +1,8 @@
+{
+  "name": "NPO Radio 2 Top 2000",
+  "content_in_root": false,
+  "render_readme": true,
+  "domains": ["sensor"],
+  "iot_class": "Cloud Polling",
+  "homeassistant": "2024.1.0"
+}

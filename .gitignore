@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Database - exclude all except the component's database
+*.db
+!custom_components/npo_top2000/data/top2000.db
+*.db-journal
+*.db.backup
+*.db-*
+
+# Development files
+scripts/
+docs/
+
+# Environment variables
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+tmp/

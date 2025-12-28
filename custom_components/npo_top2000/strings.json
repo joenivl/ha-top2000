@@ -1,0 +1,49 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "NPO Radio 2 Top 2000",
+        "description": "Configure your NPO Radio 2 Top 2000 integration",
+        "data": {
+          "upcoming_count": "Number of upcoming songs to show",
+          "update_interval": "Update interval (seconds)",
+          "enable_notifications": "Enable notifications"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "menu": {
+        "title": "Notification Rules",
+        "menu_options": {
+          "notification_settings": "Notification settings",
+          "add_rule": "Add notification rule",
+          "list_rules": "Manage existing rules"
+        }
+      },
+      "notification_settings": {
+        "title": "Notification Settings",
+        "description": "{info}",
+        "data": {
+          "notification_targets": "Notification targets (comma-separated)",
+          "notify_current_song": "Notify for current song",
+          "notify_upcoming_song": "Notify for upcoming songs",
+          "upcoming_notify_positions": "Upcoming positions to check (comma-separated)"
+        }
+      },
+      "add_rule": {
+        "title": "Add Notification Rule",
+        "description": "Get notified when a specific artist or song is playing. {example}",
+        "data": {
+          "rule_type": "Rule type",
+          "pattern": "Search pattern"
+        }
+      },
+      "list_rules": {
+        "title": "Manage Notification Rules",
+        "description": "{rules_info}"
+      }
+    }
+  }
+}

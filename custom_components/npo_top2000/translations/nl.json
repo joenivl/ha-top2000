@@ -1,0 +1,49 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "NPO Radio 2 Top 2000",
+        "description": "Configureer je NPO Radio 2 Top 2000 integratie",
+        "data": {
+          "upcoming_count": "Aantal komende nummers om te tonen",
+          "update_interval": "Update interval (seconden)",
+          "enable_notifications": "Notificaties inschakelen"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "menu": {
+        "title": "Notificatie Regels",
+        "menu_options": {
+          "notification_settings": "Notificatie instellingen",
+          "add_rule": "Notificatie regel toevoegen",
+          "list_rules": "Bestaande regels beheren"
+        }
+      },
+      "notification_settings": {
+        "title": "Notificatie Instellingen",
+        "description": "{info}",
+        "data": {
+          "notification_targets": "Notificatie doelen (komma-gescheiden)",
+          "notify_current_song": "Notificeer voor huidige nummer",
+          "notify_upcoming_song": "Notificeer voor komende nummers",
+          "upcoming_notify_positions": "Komende posities om te controleren (komma-gescheiden)"
+        }
+      },
+      "add_rule": {
+        "title": "Notificatie Regel Toevoegen",
+        "description": "Ontvang een notificatie wanneer een specifieke artiest of nummer wordt afgespeeld. {example}",
+        "data": {
+          "rule_type": "Type regel",
+          "pattern": "Zoekpatroon"
+        }
+      },
+      "list_rules": {
+        "title": "Notificatie Regels Beheren",
+        "description": "{rules_info}"
+      }
+    }
+  }
+}
